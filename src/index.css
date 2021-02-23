@@ -1,0 +1,36 @@
+.container{
+    
+    width: 200px;
+    height: 180px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.button__container{
+    margin: 0 auto;
+}
+.dice__container{
+    display: flex;
+    justify-content: space-between;
+}
+.dice__button{
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    width: 150px;
+    height: 45px;
+    outline: none;
+}
+.dice__button:hover{
+    cursor: pointer;
+    opacity: 85%;
+}
+.dice{
+    display: inline;
+    font-size: 100px;
+    color: blue;
+}
